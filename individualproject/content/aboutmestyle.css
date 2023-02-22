@@ -1,0 +1,55 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body {
+	background-image: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.3)), url(../images/aboutme.png);
+	background-position: center;
+	background-attachment: fixed;
+	background-size: cover;
+ 	height: 100vh;
+}
+.title {
+	  box-shadow: 0px 0px 15px currentcolor;
+	  border: 5px solid currentcolor;
+	  padding: 15px;
+	  color: lightgreen;
+	  width: 300px;
+    margin: 50px;
+    text-align: center;
+    font-family: 'Century Gothic',sans-serif;
+}
+p {
+	font-size: 2rem;
+	color: #fff;
+	line-height: 3rem;
+	margin-bottom: 5rem;
+}
+.box{
+  width: 700px;
+  background: rgba(0, 0, 0, 0.35);
+  padding: 40px;
+  text-align: center;
+  margin: auto;
+  color: white;
+  font-family: 'Century Gothic',sans-serif;
+  float: right;
+  height: 700px;
+}
+
+
+.box h2{
+  font-size: 30px;
+  letter-spacing: 3px;
+  font-weight: 100;
+  color: yellow;
+}
+.box p {
+  text-align: justify;
+  font-size: 20px;
+}
+
+
+
+

@@ -1,0 +1,78 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    }
+body {
+    background-image: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.3)), url(../images/meditasyon.png);
+    background-repeat: no-repeat;
+    background-position: absolute;
+    background-attachment: fixed;
+    background-size: cover;
+    height: 100vh;
+}
+  #hero video {
+  width: 400px;
+  height: 250px;
+  position: absolute;
+  object-fit: cover;
+  top:10%;
+  left: 2%;
+ }
+ #hero img {
+  width: 400px;
+  height: 250px;
+  position: absolute;
+  object-fit: cover;
+  top: 10%;
+  left: 70%;
+ }
+ #hero audio {
+  top:83%;
+  left: 70%;
+  position: absolute;
+ }
+.flex-container {
+	width: 600px;
+	height: 170px;
+  display: flex;
+  flex-wrap: nowrap;
+  background-color: #87152A;
+  top: 68%;
+  position: absolute;
+ 
+}
+
+.box {
+  background-color: #f1f1f1;
+  width: 250px;
+  height: 140px;
+  margin: 10px;
+  text-align: center;
+  line-height: 30px;
+  font-size: 18px;
+  float: below;
+
+}
+p {
+    font-size: 20px;
+    color: #fff;
+    line-height: 2rem;
+    width:450px;
+    top: 45%;
+  left: 70%;
+  position:absolute;
+
+  }
+  h1 {
+    box-shadow: 0px 0px 15px currentcolor;
+    border: 5px solid currentcolor;
+    padding: 15px;
+    color: lightgreen;
+    width: 300px;
+    margin: 50px;
+    text-align: center;
+    font-family: 'Century Gothic',sans-serif;
+    left: 35%;
+    position: absolute;
+  }
